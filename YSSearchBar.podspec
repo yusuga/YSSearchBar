@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSSearchBar'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'Can add the left and the right buttons to a UISearchBar.'
   s.homepage = 'https://github.com/yusuga/YSSearchBar'
   s.license = 'MIT'
