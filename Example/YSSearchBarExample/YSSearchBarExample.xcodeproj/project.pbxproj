@@ -16,6 +16,7 @@
 		B81D4B8E1C7EF56A00F474E6 /* YSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D4B8D1C7EF56A00F474E6 /* YSSearchBar.m */; };
 		B81D4B911C7EF5C900F474E6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D4B901C7EF5C900F474E6 /* TableViewController.m */; };
 		B81D4B941C7EFC2400F474E6 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D4B931C7EFC2400F474E6 /* SearchController.m */; };
+		B81D4BA31C8022AF00F474E6 /* UISearchBar+YSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D4BA21C8022AF00F474E6 /* UISearchBar+YSSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		B81D4B901C7EF5C900F474E6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		B81D4B921C7EFC2400F474E6 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
 		B81D4B931C7EFC2400F474E6 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
+		B81D4BA11C8022AF00F474E6 /* UISearchBar+YSSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+YSSearchBar.h"; sourceTree = "<group>"; };
+		B81D4BA21C8022AF00F474E6 /* UISearchBar+YSSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+YSSearchBar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +101,19 @@
 			children = (
 				B81D4B8C1C7EF56A00F474E6 /* YSSearchBar.h */,
 				B81D4B8D1C7EF56A00F474E6 /* YSSearchBar.m */,
+				B81D4BA01C80227D00F474E6 /* Category */,
 			);
 			name = YSSearchBar;
 			path = ../../Classes/YSSearchBar;
+			sourceTree = "<group>";
+		};
+		B81D4BA01C80227D00F474E6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B81D4BA11C8022AF00F474E6 /* UISearchBar+YSSearchBar.h */,
+				B81D4BA21C8022AF00F474E6 /* UISearchBar+YSSearchBar.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +192,7 @@
 				B81D4B941C7EFC2400F474E6 /* SearchController.m in Sources */,
 				B81D4B911C7EF5C900F474E6 /* TableViewController.m in Sources */,
 				B81D4B8E1C7EF56A00F474E6 /* YSSearchBar.m in Sources */,
+				B81D4BA31C8022AF00F474E6 /* UISearchBar+YSSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +343,7 @@
 				B81D4B8A1C7EF54E00F474E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

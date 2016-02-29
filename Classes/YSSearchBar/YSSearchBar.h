@@ -13,6 +13,4 @@
 @property (nonatomic) UIButton *leftButton;
 @property (nonatomic) UIButton *rightButton;
 
-@property (nonatomic) BOOL forceCancelButtonHidden;
-
 @end
