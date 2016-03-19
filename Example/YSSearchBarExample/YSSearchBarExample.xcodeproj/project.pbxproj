@@ -16,10 +16,11 @@
 		B81D4B8E1C7EF56A00F474E6 /* YSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D4B8D1C7EF56A00F474E6 /* YSSearchBar.m */; };
 		B81D4B911C7EF5C900F474E6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D4B901C7EF5C900F474E6 /* TableViewController.m */; };
 		B81D4B941C7EFC2400F474E6 /* SearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D4B931C7EFC2400F474E6 /* SearchController.m */; };
-		B81D4BA31C8022AF00F474E6 /* UISearchBar+YSSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B81D4BA21C8022AF00F474E6 /* UISearchBar+YSSearchBar.m */; };
+		E00491FBB87D4D5C673F0BAD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6C86ED8E3A65C83B5B7DFC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AEE03348C14FE3D36E8829C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B81D4B711C7EF54E00F474E6 /* YSSearchBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSSearchBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81D4B751C7EF54E00F474E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B81D4B771C7EF54E00F474E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,8 +37,8 @@
 		B81D4B901C7EF5C900F474E6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		B81D4B921C7EFC2400F474E6 /* SearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchController.h; sourceTree = "<group>"; };
 		B81D4B931C7EFC2400F474E6 /* SearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchController.m; sourceTree = "<group>"; };
-		B81D4BA11C8022AF00F474E6 /* UISearchBar+YSSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+YSSearchBar.h"; sourceTree = "<group>"; };
-		B81D4BA21C8022AF00F474E6 /* UISearchBar+YSSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+YSSearchBar.m"; sourceTree = "<group>"; };
+		EB5431A9B990EA56D5FFE537 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6C86ED8E3A65C83B5B7DFC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,18 +46,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E00491FBB87D4D5C673F0BAD /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		305AC3666E1AC002FFC18142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB5431A9B990EA56D5FFE537 /* Pods.debug.xcconfig */,
+				2AEE03348C14FE3D36E8829C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B81D4B681C7EF54E00F474E6 = {
 			isa = PBXGroup;
 			children = (
 				B81D4B731C7EF54E00F474E6 /* YSSearchBarExample */,
 				B81D4B8B1C7EF55E00F474E6 /* YSSearchBar */,
 				B81D4B721C7EF54E00F474E6 /* Products */,
+				305AC3666E1AC002FFC18142 /* Pods */,
+				C928676ECBF7B9397309B205 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,19 +114,17 @@
 			children = (
 				B81D4B8C1C7EF56A00F474E6 /* YSSearchBar.h */,
 				B81D4B8D1C7EF56A00F474E6 /* YSSearchBar.m */,
-				B81D4BA01C80227D00F474E6 /* Category */,
 			);
 			name = YSSearchBar;
 			path = ../../Classes/YSSearchBar;
 			sourceTree = "<group>";
 		};
-		B81D4BA01C80227D00F474E6 /* Category */ = {
+		C928676ECBF7B9397309B205 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B81D4BA11C8022AF00F474E6 /* UISearchBar+YSSearchBar.h */,
-				B81D4BA21C8022AF00F474E6 /* UISearchBar+YSSearchBar.m */,
+				FA6C86ED8E3A65C83B5B7DFC /* libPods.a */,
 			);
-			path = Category;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B81D4B881C7EF54E00F474E6 /* Build configuration list for PBXNativeTarget "YSSearchBarExample" */;
 			buildPhases = (
+				5CD46C0D9A072FE1EEB02E95 /* Check Pods Manifest.lock */,
 				B81D4B6D1C7EF54E00F474E6 /* Sources */,
 				B81D4B6E1C7EF54E00F474E6 /* Frameworks */,
 				B81D4B6F1C7EF54E00F474E6 /* Resources */,
+				59F8DC3F965B9A40F0D34CF1 /* Embed Pods Frameworks */,
+				B6822F44903B34FD89DA3188 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,6 +195,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59F8DC3F965B9A40F0D34CF1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CD46C0D9A072FE1EEB02E95 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6822F44903B34FD89DA3188 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B81D4B6D1C7EF54E00F474E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -192,7 +254,6 @@
 				B81D4B941C7EFC2400F474E6 /* SearchController.m in Sources */,
 				B81D4B911C7EF5C900F474E6 /* TableViewController.m in Sources */,
 				B81D4B8E1C7EF56A00F474E6 /* YSSearchBar.m in Sources */,
-				B81D4BA31C8022AF00F474E6 /* UISearchBar+YSSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +363,7 @@
 		};
 		B81D4B891C7EF54E00F474E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5431A9B990EA56D5FFE537 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YSSearchBarExample/Info.plist;
@@ -314,6 +376,7 @@
 		};
 		B81D4B8A1C7EF54E00F474E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AEE03348C14FE3D36E8829C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YSSearchBarExample/Info.plist;

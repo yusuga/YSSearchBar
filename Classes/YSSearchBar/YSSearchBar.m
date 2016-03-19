@@ -7,7 +7,7 @@
 //
 
 #import "YSSearchBar.h"
-#import "UISearchBar+YSSearchBar.h"
+#import <YSUIKitAdditions/UISearchBar+YSUIKitAdditions.h>
 
 static CGFloat const kDefaultHorizontalMargin = 8.;
 

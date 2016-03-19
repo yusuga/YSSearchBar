@@ -1,0 +1,10 @@
+PODS:
+  - YSUIKitAdditions (0.0.27)
+
+DEPENDENCIES:
+  - YSUIKitAdditions
+
+SPEC CHECKSUMS:
+  YSUIKitAdditions: 73a7520d29e12a6e129f8cade28fa9a9fedeaeb9
+
+COCOAPODS: 0.39.0
