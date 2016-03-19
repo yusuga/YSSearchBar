@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'YSSearchBar'
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.summary = 'Can add the left and the right buttons to a UISearchBar.'
   s.homepage = 'https://github.com/yusuga/YSSearchBar'
   s.license = 'MIT'
@@ -11,4 +11,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/YSSearchBar/**/*.{h,m}'
   s.requires_arc = true
   s.compiler_flags = '-fmodules'
+  
+  s.dependency 'YSUIKitAdditions'
 end
